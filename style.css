@@ -517,41 +517,8 @@ footer p{
 }
 
 /* Responsive */
-@media screen and (max-width: 759px) (min-width: 732px) {
-	.menu{
-		text-align:start;
-	}
-	.DFlag{
-		min-width:40px;
-	}
-}
-@media screen and (max-width: 732px) (min-width: 636px) {
-	.hero-content h1{
-		font-size: 2.5rem;
-	}
-	.hero-content p{
-		font-size: 1.1rem;
-	}
-	.hero-content{
-		padding: 40px 20px;
-	}
-	h2{
-		font-size: 2rem;
-	}
-	.contatti-content{
-		grid-template-columns: 1fr;
-		gap: 30px;
-	}
-	.glass-container{
-		padding: 40px 20px;
-		margin: 20px 10px;
-	}
-	section{
-		padding: 60px 5%;
-	}
-}
+@media screen and (max-width: 759px) {
 
-@media screen and (max-width: 636px) {
 	.NavDesktop .menu{
 		display: none;
 	}
@@ -593,4 +560,4 @@ footer p{
 	section{
 		padding: 60px 5%;
 	}
-	}
+}
